@@ -1,0 +1,19 @@
+{
+  "name": "modern-searchinput",
+  "version": "1.0.0",
+  "author": "Tomas Töws",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "build-and-deploy": "rm -r -f -v dist/ && parcel build src/index.html && node rewriteURLs.js && ./deploy.sh"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "replace-in-file": "^4.2.0",
+    "sass": "^1.23.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomastoews/Modern-Search-Input.git"
+  }
+}
