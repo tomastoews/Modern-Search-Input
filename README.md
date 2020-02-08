@@ -2,4 +2,4 @@
 A modern and clean HTML5 &amp; CSS3 search input.
 
 # Live Demo
-https://modernsearchinput.netlify.com/
+https://www.projects.tomastoews.de/modern-searchinput
